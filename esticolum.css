@@ -1,0 +1,25 @@
+#columnas{
+    column-count:4;
+    column-gap:20px;
+    column-rule:6px double gray;
+    list-style: none;
+ }
+ #contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+  
+  #contenedor > div {
+    width: 25%;
+  }
+
+  #contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+  
+  #contenedor2 > div {
+    width: 33%;
+  }

@@ -1,0 +1,198 @@
+{"arduino":[
+    {
+        "plan":"Free",
+        "costo":0,
+        "enlace": "https://cloud.arduino.cc/plans"
+
+    },
+    {
+        "plan":"Entry",
+        "costo":23.88,
+        "enlace": "https://cloud.arduino.cc/plans"
+
+    },
+    {
+        "plan":"Maker",
+        "costo":71.88,
+        "enlace": "https://cloud.arduino.cc/plans"
+
+    },
+    {
+        "plan":"Maker Plus",
+        "costo":239.98,
+        "enlace": "https://cloud.arduino.cc/plans"
+    },
+    {
+        "plan":"ThingSpeak",
+        "costo":0,
+        "enlace": "https://thingspeak.com/prices"
+    },
+    {
+        "plan":"Azure",
+        "costo":120,
+        "enlace": "https://azure.microsoft.com/en-us/pricing/details/iot-hub/?ef_id=_k_Cj0KCQjw3ZayBhDRARIsAPWzx8r81-jmkrwfK4xSAaY_ns831fQHXdDy3h_wyDn3QqaX9Gj8QysgTlEaAhH1EALw_wcB_k_&OCID=AIDcmm3804ythc_SEM__k_Cj0KCQjw3ZayBhDRARIsAPWzx8r81-jmkrwfK4xSAaY_ns831fQHXdDy3h_wyDn3QqaX9Gj8QysgTlEaAhH1EALw_wcB_k_&gad_source=1&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8r81-jmkrwfK4xSAaY_ns831fQHXdDy3h_wyDn3QqaX9Gj8QysgTlEaAhH1EALw_wcB"
+    },
+    {
+        "plan":"Ubidots",
+        "costo":499,
+        "enlace": "https://es.ubidots.com/plans"
+    },
+    {
+        "plan":"Blink",
+        "costo":0,
+        "enlace": "https://blynk.io/pricing"
+    }
+
+],
+"sensor":[
+    {
+        "nombre":"Temperatura LM35",
+        "costo":10660,
+        "enlace": "https://www.alldatasheet.com/datasheet-pdf/pdf/517588/TI1/LM35.html"
+
+    },
+    {
+        "nombre":"Humedad y Temperatura DHT11",
+        "costo":7800,
+        "enlace": "https://www.alldatasheet.com/view.jsp?Searchword=Dht11%20datasheet&gad_source=1&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8o5naY13Rkhrui7ca9tETwxzDrCcpDCSjNAUPVzCzCmSXJOIHsxH6kaAvGjEALw_wcB"
+
+    },
+    {
+        "nombre":"Humedad del Suelo SEN0193",
+        "costo":29900,
+        "enlace": "https://www.digikey.com/htmldatasheets/production/2071177/0/0/1/sen0193.html"
+
+    },
+    {
+        "nombre":"Termocupla Tipo K",
+        "costo":31000,
+        "enlace": "https://www.makerelectronico.com/producto/termocupla-tipo-k-driver-max6675/"
+
+    },
+    {
+        "nombre":"Movimiento HC-SR501 PIR",
+        "costo":12987,
+        "enlace": "https://datasheetspdf.com/pdf-down/H/C/-/HC-SR501-ETC.pdf"
+
+    },
+    {
+        "nombre":"Ultrasonido HC-SR04",
+        "costo":5100,
+        "enlace": "https://www.alldatasheet.com/view.jsp?Searchword=Hcsr04%20datasheet&gad_source=1&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8oBbjEUVNdsUxWz_IkCnyeNpFlRgmuUkpbFfnmCvQxkyjXHH0g6guAaAs5NEALw_wcB"
+
+    },
+    {
+        "nombre":"Gas MQ2",
+        "costo":19500,
+        "enlace": "https://www.mouser.com/datasheet/2/321/605-00008-MQ-2-Datasheet-370464.pdf"
+
+    },
+    {
+        "nombre":"Ritmo Cardiaco MAX30102",
+        "costo":22000,
+        "enlace": "https://www.alldatasheet.com/view.jsp?Searchword=Max30102%20datasheet&gad_source=1&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8pEX-L9yH_194hqSidp9Mt8GLq3K1FMjdsiGjAhfiHWWcLUr2Gq3aUaAjh1EALw_wcB"
+
+    }
+
+],
+"embebido":[
+    {
+        "nombre":"ARDUINO YUN",
+        "costo":317500,
+        "enlace": "https://docs.arduino.cc/retired/boards/arduino-yun/"
+
+    },
+    {
+        "nombre":"ARDUINO UNO R4",
+        "costo":209900,
+        "enlace": "https://docs.arduino.cc/resources/datasheets/ABX00087-datasheet.pdf"
+
+    },
+    {
+        "nombre":"ARDUINO MKR1000",
+        "costo":320000,
+        "enlace": "https://docs.arduino.cc/hardware/mkr-1000-wifi/"
+
+    },
+    {
+        "nombre":"Raspberry Pi4",
+        "costo":200000,
+        "enlace": "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf"
+
+    },
+    {
+        "nombre":"Raspberry Pi Pico",
+        "costo":50000,
+        "enlace": "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
+
+    },
+    {
+        "nombre":"ESP8266",
+        "costo":20000,
+        "enlace": "https://www.alldatasheet.com/view.jsp?Searchword=Esp8266%20datasheet&gad_source=1&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8pl8f-Q83e1v6NK91FDoCRfFJl80wSswAEuyaTQNMA5WSC3JYmiskYaAvzvEALw_wcB"
+
+    },
+    {
+        "nombre":"ESP32",
+        "costo":24900,
+        "enlace": "https://www.alldatasheet.com/view.jsp?Searchword=Esp32%20datasheet&gad_source=1&gclid=Cj0KCQjw3ZayBhDRARIsAPWzx8pkwZ6pn2bqOE6Qu7BjhoiZbE02_BX7s2OZ1j6hCaLuDek-uh0r-ysaAmWPEALw_wcB"
+    },
+    {
+        "nombre":"STM32",
+        "costo":62400,
+        "enlace": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
+    }
+
+],
+"actuador":[
+    {
+        "nombre":"LED",
+        "costo":500,
+        "enlace": "https://www.alldatasheet.es/datasheet-pdf/pdf/219258/BRIGHT/BIR-BM13E4G-2.html"
+
+    },
+    {
+        "nombre":"LED RGB",
+        "costo":500,
+        "enlace": "https://www.electronicoscaldas.com/datasheet/LED5D-RGB-CA.pdf"
+
+    },
+    {
+        "nombre":"MOTOR DC",
+        "costo":12700,
+        "enlace": "https://www.alldatasheet.es/datasheet-pdf/pdf/1262794/PROMOCO/RF-370.html"
+
+    },
+    {
+        "nombre":"MOTOR PASO A PASO",
+        "costo":11950,
+        "enlace": "https://www.alldatasheet.com/view.jsp?Searchword=28byj48%20datasheet&gad_source=1&gclid=Cj0KCQjwgJyyBhCGARIsAK8LVLNPGJYiBaRDSwZuCQUe6W3Uj1G-ttuH7WHLr7g6g_YNpZcbmvUW5bEaArO8EALw_wcB"
+
+    },
+    {
+        "nombre":"SERVOMOTOR",
+        "costo":11500,
+        "enlace": "https://www.alldatasheet.es/datasheet-pdf/pdf/1572383/ETC/SG90.html"
+
+    },
+    {
+        "nombre":"Display LCD",
+        "costo":15000,
+        "enlace": "https://components101.com/sites/default/files/component_datasheet/16x2%20LCD%20Datasheet.pdf"
+
+    },
+    {
+        "nombre":"Display OLED",
+        "costo":32000,
+        "enlace": "https://www.alldatasheet.com/view.jsp?Searchword=Ssd1306&gad_source=1&gclid=Cj0KCQjwgJyyBhCGARIsAK8LVLNwJo4TBPhcdA6b9FHwpqSPJHZbe_9052B6gNVbKukQAXs5TJoG_KAaArJ_EALw_wcB"
+
+    },
+    {
+        "nombre":"Relevo",
+        "costo":15470,
+        "enlace": "https://category.alldatasheet.com/index.jsp?sSearchword=5v%20relay%20datasheet&gad_source=1&gclid=Cj0KCQjwgJyyBhCGARIsAK8LVLMWIIWD8VB5uqi9laHAOUyITMTUy0IpsE1-fwxWyKWJKxdj488vAjkaAiQWEALw_wcB"
+
+    }
+
+]
+}

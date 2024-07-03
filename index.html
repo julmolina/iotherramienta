@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devide-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="esticolum.css" />  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body style="background-color:powderblue;">
+    <br>
+    <center>
+        <h1>CONCEPCIÓN PARA SOLUCIÓN DE IOT A BAJA ESCALA</h1>
+        <br>
+        <div id="columnas">
+          <li>Info de Plataforma IoT</li>
+          <li>Info de Sensor</li>
+          <li>Info de Sistema Embebido</li>
+          <li>Info de Actuador</li>
+          </div>
+        <div id="contenedor">
+          <div>
+              <p id="demo4"></p>
+              <p id="demo5"></p>
+              <div id="resultado"></div>
+          </div>
+          <div>
+            <p id="demo42"></p>
+            <p id="demo52"></p>
+            <div id="resultado2"></div>
+          </div>
+          <div>
+            <p id="demo43"></p>
+            <p id="demo53"></p>
+            <div id="resultado3"></div>
+          </div>
+          <div>
+            <p id="demo44"></p>
+            <p id="demo54"></p>
+            <div id="resultado4"></div>
+          </div>
+        </div>
+        <h3>PLATAFORMA IOT</h3>
+        <form id="form1" name="form1" method="post" action="">
+            <select id="platf" name="platf">
+              <script type="text/javascript"> 
+                document.write("<option>"+ parseInt (0)+ " Arduino Free" + "</option>" );
+                document.write("<option>"+ parseInt (1)+" Arduino Entry" + "</option>" );
+                document.write("<option>"+ parseInt (2)+" Arduino Maker" + "</option>" );
+                document.write("<option>"+ parseInt (3)+" Arduino Maker Plus" + "</option>" );
+                document.write("<option>"+ parseInt (4)+" ThingSpeak" + "</option>" );
+                document.write("<option>"+ parseInt (5)+" Azure" + "</option>" );
+                document.write("<option>"+ parseInt (6)+" Ubidots" + "</option>" );
+                document.write("<option>"+ parseInt (7)+" Blink" + "</option>" );
+              </script>
+            </select>
+            <br><br>
+        </form>
+        <img src="platiot.jpg" alt="plataforma" width="120" height="120">
+        <div id="contenedor2">
+          <div>
+            <h3>Sensor (Input)</h3>
+            <form id="form2" name="form2" method="post" action="">
+              <select id="sensor" name="sensor">
+                <script type="text/javascript"> 
+                  document.write("<option>"+ parseInt (0)+" Temperatura LM35" + "</option>" );
+                  document.write("<option>"+ parseInt (1)+" Humedad y Temperatura DHT11" + "</option>" );
+                  document.write("<option>"+ parseInt (2)+" Humedad del Suelo SEN0193" + "</option>" );
+                  document.write("<option>"+ parseInt (3)+" Alta Temperatura Termocupla TIPO K" + "</option>" );
+                  document.write("<option>"+ parseInt (4)+" Movimiento HC-SR501 PIR" + "</option>" );
+                  document.write("<option>"+ parseInt (5)+" Ultrasonido HC-SR04" + "</option>" );
+                  document.write("<option>"+ parseInt (6)+" Gas MQ2" + "</option>" );
+                  document.write("<option>"+ parseInt (7)+" Ritmo cardiaco MAX30102" + "</option>" );
+                </script>
+              </select>
+              <br><br>
+          </form>
+            <img src="sensor.png" alt="sensor" width="140" height="120">
+          </div>
+          <div>
+            <h3>Embebido (Process)</h3>
+            <form id="form3" name="form3" method="post" action="">
+              <select id="embebido" name="embebido">
+                <script type="text/javascript"> 
+                  document.write("<option>"+ parseInt (0)+" Arduino YUN" + "</option>" );
+                  document.write("<option>"+ parseInt (1)+" Arduino UNO R4" + "</option>" );
+                  document.write("<option>"+ parseInt (2)+" Arduino MKR1000" + "</option>" );
+                  document.write("<option>"+ parseInt (3)+" Raspberry Pi4" + "</option>" );
+                  document.write("<option>"+ parseInt (4)+" Raspberry Pi Pico" + "</option>" );
+                  document.write("<option>"+ parseInt (5)+" ESP8266 " + "</option>" );
+                  document.write("<option>"+ parseInt (6)+" ESP32 " + "</option>" );
+                  document.write("<option>"+ parseInt (7)+" STM32" + "</option>" );
+                </script>
+              </select>
+              <br><br>
+          </form>
+            <img src="embebido.jpg" alt="sistema embebido" width="120" height="120">
+          </div>
+          <div>
+            <h3>Actuador (Output)</h3>
+            <form id="form4" name="form4" method="post" action="">
+              <select id="actuador" name="actuador">
+                <script type="text/javascript"> 
+                  document.write("<option>"+ parseInt (0)+ " LED" + "</option>" );
+                  document.write("<option>"+ parseInt (1)+" LED RGB" + "</option>" );
+                  document.write("<option>"+ parseInt (2)+" Motor DC" + "</option>" );
+                  document.write("<option>"+ parseInt (3)+" Motor Paso a Paso" + "</option>" );
+                  document.write("<option>"+ parseInt (4)+" Servomotor" + "</option>" );
+                  document.write("<option>"+ parseInt (5)+" Display LCD" + "</option>" );
+                  document.write("<option>"+ parseInt (6)+" Display OLED" + "</option>" );
+                  document.write("<option>"+ parseInt (7)+" Relevo" + "</option>" );
+                </script>
+              </select>
+              <br><br>
+          </form>
+            <img src="actuador.jpg" alt="actuador" width="200" height="105">
+          </div>
+        </div>
+    <br><br>
+        <div class="container">
+          <button id="txtBtn" type="button" class="btn">Consulta</button>
+          <a target="_blank" href="https://my-json-server.typicode.com/julmolina/IoT/db">
+          <button id="apiBtn" type="button" class="btn">Cargar API</button>
+          </a> 
+      </div>
+      <br><br>
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p><br><br><br>
+        
+    </center>
+    <script src="js/app.js"></script>
+</body>
+</html>
